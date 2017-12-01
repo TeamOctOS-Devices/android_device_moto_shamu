@@ -5,10 +5,13 @@ TARGET_SCREEN_WIDTH := 1440
 # Inherit some common OctOS stuff.
 $(call inherit-product, vendor/octos/config/common.mk)
 
+# Get the long list of APNs
+PRODUCT_COPY_FILES := device/moto/shamu/apns-conf.xml:system/etc/apns-conf.xml
+
 # Inherit device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/moto/shamu/overlay-lineage
+#DEVICE_PACKAGE_OVERLAYS += device/moto/shamu/overlay-lineage
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := octos_shamu
