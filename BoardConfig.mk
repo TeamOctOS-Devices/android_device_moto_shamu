@@ -139,9 +139,9 @@ USE_OPENGL_RENDERER := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
 # CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS := \
-    hardware/cyanogen/cmhw
+#BOARD_USES_CYANOGEN_HARDWARE := true
+#BOARD_HARDWARE_CLASS := \
+#    hardware/cyanogen/cmhw
 
 # Recovery
 LZMA_RAMDISK_TARGETS := recovery
