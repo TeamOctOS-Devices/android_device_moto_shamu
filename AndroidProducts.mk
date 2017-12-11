@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octos_shamu.mk \
+    $(LOCAL_DIR)/octos.mk \
     $(LOCAL_DIR)/aosp_shamu.mk

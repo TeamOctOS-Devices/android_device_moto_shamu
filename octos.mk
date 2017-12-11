@@ -3,7 +3,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common OctOS stuff.
-$(call inherit-product, vendor/octos/config/common_full_phone.mk)
+$(call inherit-product, vendor/octos/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
