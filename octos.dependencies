@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "android_kernel_moto_shamu",
+    "target_path": "kernel/moto/shamu"
+  },
+  {
+    "remote": "octos-blobs",
+    "repository": "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola"
+  }
+]
